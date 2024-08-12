@@ -75,7 +75,6 @@ afterEvaluate { project ->
 
     artifacts {
         archives androidSourcesJar
-        archives androidJavadocJar
     }
 
     task installArchives(type: Upload) {
